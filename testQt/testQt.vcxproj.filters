@@ -18,19 +18,25 @@
     <ClCompile Include="main.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="guiHandler.cpp">
+    <ClCompile Include="searchselect.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
     <ClCompile Include="browsingSearch.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\bin\win64\soapC.cpp">
+    <ClCompile Include="soapC.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\bin\win64\soapGMAF_USCOREFacade_USCORESOAPImplPortBindingProxy.cpp">
+    <ClCompile Include="soapGMAF_USCOREFacade_USCORESOAPImplPortBindingProxy.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\stdsoap2.cpp">
+    <ClCompile Include="stdsoap2.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="keywordInput.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="specificSearch.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
   </ItemGroup>
@@ -38,22 +44,28 @@
     <ClInclude Include="qtDefine.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="guiHandler.h">
+    <ClInclude Include="searchselect.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="browsingSearch.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\bin\win64\soapH.h">
+    <ClInclude Include="soapGMAF_USCOREFacade_USCORESOAPImplPortBindingProxy.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\bin\win64\soapStub.h">
+    <ClInclude Include="soapH.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\bin\win64\soapGMAF_USCOREFacade_USCORESOAPImplPortBindingProxy.h">
+    <ClInclude Include="soapStub.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\stdsoap2.h">
+    <ClInclude Include="stdsoap2.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="keywordInput.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="specificSearch.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

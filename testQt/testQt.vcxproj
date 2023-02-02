@@ -132,21 +132,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\bin\win64\soapC.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\bin\win64\soapGMAF_USCOREFacade_USCORESOAPImplPortBindingProxy.cpp" />
-    <ClCompile Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\stdsoap2.cpp" />
+    <ClCompile Include="keywordInput.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="guiHandler.cpp" />
+    <ClCompile Include="searchselect.cpp" />
     <ClCompile Include="browsingSearch.cpp" />
+    <ClCompile Include="soapC.cpp" />
+    <ClCompile Include="soapGMAF_USCOREFacade_USCORESOAPImplPortBindingProxy.cpp" />
+    <ClCompile Include="specificSearch.cpp" />
+    <ClCompile Include="stdsoap2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\bin\win64\soapGMAF_USCOREFacade_USCORESOAPImplPortBindingProxy.h" />
-    <ClInclude Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\bin\win64\soapH.h" />
-    <ClInclude Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\bin\win64\soapStub.h" />
-    <ClInclude Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\stdsoap2.h" />
     <ClInclude Include="browsingSearch.h" />
-    <ClInclude Include="guiHandler.h" />
+    <ClInclude Include="keywordInput.h" />
+    <ClInclude Include="searchselect.h" />
     <ClInclude Include="qtDefine.h" />
+    <ClInclude Include="soapGMAF_USCOREFacade_USCORESOAPImplPortBindingProxy.h" />
+    <ClInclude Include="soapH.h" />
+    <ClInclude Include="soapStub.h" />
+    <ClInclude Include="specificSearch.h" />
+    <ClInclude Include="stdsoap2.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\Downloads\gsoap_2.8.124\gsoap-2.8\gsoap\bin\win64\GMAF_USCOREFacade_USCORESOAPImplPortBinding.nsmap">

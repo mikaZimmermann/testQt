@@ -7,6 +7,8 @@
 #include <QBoxLayout>
 #include <QMainWindow>
 #include <QObject>
+#include <QInputDialog>
+#include <QListWidget>
 
 
 #endif

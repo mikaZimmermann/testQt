@@ -7,24 +7,24 @@
 
 class KEYWORDINPUT;
 
-class BROWSINGSEARCH : public QObject {
-KEYWORDINPUT* keywordInput;
+class SPECIFICSEARCH : public QObject {
+	KEYWORDINPUT* keywordInput;
 
 
 public:
 
 	QApplication* qapp;
 
-	QWidget* browsingSearch;
+	QWidget* specificSearch;
 
 	std::vector<std::string> keywords;
 
 	void setKeyword(QString keyword);
 
-	BROWSINGSEARCH(QApplication* app);
+	SPECIFICSEARCH(QApplication* app);
 
 private:
-	
+
 
 	QHBoxLayout* mainLayout;
 
