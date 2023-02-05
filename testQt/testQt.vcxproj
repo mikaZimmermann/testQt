@@ -132,8 +132,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hoverVisu.cpp" />
     <ClCompile Include="keywordInput.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="resultItem.cpp" />
+    <ClCompile Include="resultVisu.cpp" />
+    <ClCompile Include="searchResultVisu.cpp" />
     <ClCompile Include="searchselect.cpp" />
     <ClCompile Include="browsingSearch.cpp" />
     <ClCompile Include="soapC.cpp" />
@@ -143,7 +147,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="browsingSearch.h" />
+    <ClInclude Include="hoverVisu.h" />
     <ClInclude Include="keywordInput.h" />
+    <ClInclude Include="resultItem.h" />
+    <ClInclude Include="resultVisu.h" />
+    <ClInclude Include="searchResultVisu.h" />
     <ClInclude Include="searchselect.h" />
     <ClInclude Include="qtDefine.h" />
     <ClInclude Include="soapGMAF_USCOREFacade_USCORESOAPImplPortBindingProxy.h" />
