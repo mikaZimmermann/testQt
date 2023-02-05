@@ -1,6 +1,7 @@
 #include "qtDefine.h"
 #include "keywordInput.h"
 #include "browsingSearch.h"
+#include "searchResultVisu.h"
 #include <iostream>
 #include "stdio.h"
 
@@ -87,5 +88,6 @@ void BROWSINGSEARCH::sendQuery()
 		keywordsForQuery.push_back(qs.toLocal8Bit().constData());
 
 	}
-
+	searchResultVisu = new SEARCHRESULTVISU(qapp);
+	browsingSearch->close();
 }

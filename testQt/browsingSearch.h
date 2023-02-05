@@ -6,6 +6,7 @@
 #include <String>
 
 class KEYWORDINPUT;
+class SEARCHRESULTVISU;
 
 class BROWSINGSEARCH : public QObject {
 KEYWORDINPUT* keywordInput;
@@ -16,6 +17,9 @@ public:
 	QApplication* qapp;
 
 	QWidget* browsingSearch;
+
+	SEARCHRESULTVISU* searchResultVisu;
+	
 
 	std::vector<std::string> keywords;
 

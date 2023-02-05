@@ -9,6 +9,14 @@
 #include <QObject>
 #include <QInputDialog>
 #include <QListWidget>
+#include <QImage>
+#include <QLabel>
+#include <QPixmap>
+#include <QListView>
+
+
+
+
 
 
 #endif
